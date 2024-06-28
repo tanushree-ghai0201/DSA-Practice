@@ -12,5 +12,8 @@ public class Main {
         medianFinder.addNum(1);
         medianFinder.addNum(2);
         System.out.println(medianFinder.findMedian());
+        int[] histogram = {2,1,5,6,2,3};
+        int[] histogram2 = {1,1};
+        System.out.println(LargestRect.largestRectangleArea(histogram2));
     }
 }
