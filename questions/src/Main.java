@@ -15,5 +15,6 @@ public class Main {
         int[] histogram = {2,1,5,6,2,3};
         int[] histogram2 = {1,1};
         System.out.println(LargestRect.largestRectangleArea(histogram2));
+        System.out.println(TrappingRainWater.trap(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2}));
     }
 }
