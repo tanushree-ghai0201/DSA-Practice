@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Hello and welcome!");
 
         // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        MedianFinder medianFinder = new MedianFinder();
+       /* MedianFinder medianFinder = new MedianFinder();
         medianFinder.addNum(1);
         medianFinder.addNum(2);
         System.out.println(medianFinder.findMedian());
@@ -16,6 +16,18 @@ public class Main {
         int[] histogram2 = {1,1};
         System.out.println(LargestRect.largestRectangleArea(histogram2));
         System.out.println(TrappingRainWater.trap(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2}));
-        System.out.println(LIS.lengthOfLIS(new int[]{0, 1, 0, 3, 2, 3}));
+        System.out.println(LIS.lengthOfLIS(new int[]{0, 1, 0, 3, 2, 3}));*/
+        Calendar cl  = new Calendar();
+        System.out.println(cl.book(47,50));
+        System.out.println(cl.book(33,41));
+        System.out.println(cl.book(39,45));
+        System.out.println(cl.book(33,42));
+        System.out.println(cl.book(25,32));
+        System.out.println(cl.book(26,35));
+        System.out.println(cl.book(19,25));
+        System.out.println(cl.book(3,8));
+        System.out.println(cl.book(8,13));
+        System.out.println(cl.book(18,27));
+
     }
 }
