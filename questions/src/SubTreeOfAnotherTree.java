@@ -1,4 +1,4 @@
-
+import utils.*;
  public class SubTreeOfAnotherTree {
     
     boolean ans = false;
@@ -23,18 +23,5 @@
         helper(root, subRoot);
         return ans;
     }
-
-    public class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode() {}
-      TreeNode(int val) { this.val = val; }
-      TreeNode(int val, TreeNode left, TreeNode right) {
-          this.val = val;
-          this.left = left;
-          this.right = right;
-    }
-}
 
 }

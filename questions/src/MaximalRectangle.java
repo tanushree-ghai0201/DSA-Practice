@@ -40,6 +40,7 @@ class MaximalRectangle {
         return maxArea;
     }
     public int maximalRectangle(char[][] matrix) {
+        int m = matrix.length;
         int n = matrix[0].length;
         int[] heights = new int[n];
         int maxArea = 0;
